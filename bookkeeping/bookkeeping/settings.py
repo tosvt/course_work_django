@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-qi49nghq0fp(i_2w^x39$$^@63*3wc&9@n*edno6@z7jv%9-9@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['bk-django-app.herokuapp.com']
 
@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'bookkeeping.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd7jh6e04dmd0be',
-        'USER':  'gjgidsjcfbeffq',
-        'PASSWORD': '207c26654895646d51b1723583a9b3fb278815ff67401cdb94eff3b5b52a20aa',
-        'HOST': 'ec2-35-169-204-98.compute-1.amazonaws.com',
+        'ENGINE': 'postgresql_psycopg2',
+        'NAME': 'name',
+        'USER':  'user',
+        'PASSWORD': 'password',
+        'HOST': 'locahost',
         'PORT': '5432',
     }
 }
